@@ -11,7 +11,7 @@ const Widget = ({ type }) => {
 
   //temporarry
   const amount = 100;
-  const percantage = 20;
+  const percantage = 35;
 
   switch (type) {
     case "user":
