@@ -44,8 +44,10 @@ const Sidebar = () => {
         <ul>
           <p className="title">MAIN</p>
           <li>
-            <InsertChartOutlinedIcon className="icon"/>
-            <span>Dashboard</span>
+            <Link to="/" style={{ textDecoration: "none" }}>
+              <InsertChartOutlinedIcon className="icon" />
+              <span>Dashboard</span>
+            </Link>
           </li>
           <p className="title">LISTS</p>
           <Link to="/users" style={{textDecoration:"none"}}>
